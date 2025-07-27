@@ -61,7 +61,7 @@ class AppTheme {
     // 🏷 Chips
     chipTheme: ChipThemeData(
       backgroundColor: AppColors.neutral100,
-      selectedColor: AppColors.primary.withOpacity(0.2),
+      selectedColor: AppColors.primary.withValues(alpha: 0.2),
       labelStyle: GoogleFonts.inter(color: AppColors.textPrimaryLight),
     ),
 
@@ -130,7 +130,7 @@ class AppTheme {
     // 🏷 Chips
     chipTheme: ChipThemeData(
       backgroundColor: AppColors.neutral700,
-      selectedColor: AppColors.primary.withOpacity(0.3),
+      selectedColor: AppColors.primary.withValues(alpha: 0.3),
       labelStyle: GoogleFonts.inter(color: AppColors.textPrimaryDark),
     ),
 
