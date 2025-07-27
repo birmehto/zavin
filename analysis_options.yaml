@@ -1,0 +1,33 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # ✅ Best Practices
+    prefer_const_constructors: true
+    prefer_final_fields: true
+    use_key_in_widget_constructors: true
+    unnecessary_this: true
+    prefer_single_quotes: true
+
+    # 🔒 Safety / Null Safety
+    always_declare_return_types: true
+    avoid_dynamic_calls: true
+    avoid_types_as_parameter_names: true
+    no_duplicate_case_values: true
+
+
+    # 🔥 Strictness for cleaner code
+    prefer_relative_imports: false
+    prefer_const_literals_to_create_immutables: true
+    require_trailing_commas: true
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"       # ignore generated code (json_serializable, etc.)
+    - "**/*.freezed.dart" # ignore freezed generated files
+    - "build/**"
+
+  errors:
+    invalid_annotation_target: ignore  # Suppress meta errors for annotations
+    constant_identifier_names: ignore
+    file_names: ignore

@@ -1,0 +1,44 @@
+name: zavin
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.7.2
+  logger: ^2.6.1
+  dio: ^5.8.0+1
+  google_fonts: ^6.2.1
+  flutter_screenutil: ^5.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4   # ✅ Moved here
+  flutter_native_splash: ^2.4.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+# ✅ Native splash config (already correct)
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/icons/zavin_logo.png
+  android: true
+  ios: true
+  web: false
+
+# ✅ Launcher icon config (missing earlier!)
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/zavin_logo.png"

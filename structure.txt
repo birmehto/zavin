@@ -1,0 +1,22 @@
+lib/
+ ├── core/
+ │    ├── theme/
+ │    ├── constants/
+ │    ├── utils/
+ │    └── services/ (API, local storage)
+ ├── features/
+ │    ├── splash/
+ │    ├── onboarding/
+ │    │    ├── view/
+ │    │    ├── controller/
+ │    │    └── widgets/
+ │    ├── home/
+ │    ├── search/
+ │    ├── saved/
+ │    └── profile/
+ ├── routes/
+ ├── localization/
+ └── main.dart
+
+
+
