@@ -14,12 +14,14 @@ dependencies:
   dio: ^5.8.0+1
   google_fonts: ^6.2.1
   flutter_screenutil: ^5.9.3
+  get_storage: ^2.1.1
+  home_widget: ^0.8.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
-  flutter_launcher_icons: ^0.14.4   # ✅ Moved here
+  flutter_launcher_icons: ^0.14.4   
   flutter_native_splash: ^2.4.6
 
 flutter:

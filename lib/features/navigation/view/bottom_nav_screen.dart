@@ -23,6 +23,7 @@ class BottomNavScreen extends StatelessWidget {
       return Scaffold(
         body: pages[controller.currentIndex.value],
         bottomNavigationBar: NavigationBar(
+          overlayColor: WidgetStateProperty.all(Colors.transparent),
           selectedIndex: controller.currentIndex.value,
           onDestinationSelected: controller.changeTab,
           destinations: const [
